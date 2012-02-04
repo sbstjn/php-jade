@@ -43,18 +43,18 @@ class JadeHandler {
     $this->clean();
   }
 
-	/**
-	 * Clean assigned variables
-	 **/
+  /**
+   * Clean assigned variables
+   **/
   public function clean() {
     $this->values = array();
   }
 
-	/**
-	 * Assign value to key
-	 * @param string $key
-	 * @param mixed $value
-	 **/
+  /**
+   * Assign value to key
+   * @param string $key
+   * @param mixed $value
+   **/
   public function assign($key, $value = null) {
     if (!is_array($key)) {
       $this->values[$key] = $value; }

@@ -1,7 +1,7 @@
 <?php
 
 if (__DIR__ == '__DIR__') {
-	die('you need php 5.3 get this working…'); }
+  die('you need php 5.3 get this working…'); }
 
 define ('ABSPATH', __DIR__ . '/');
 
