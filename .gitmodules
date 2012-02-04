@@ -1,0 +1,3 @@
+[submodule "vendor/jade"]
+	path = vendor/jade
+	url = https://github.com/everzet/jade.php.git
